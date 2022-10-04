@@ -100,9 +100,28 @@ theme.
     width: 160px;
     height: auto;
   }
+  .logo-menu-m{
+    width: 100px;
+    height: auto;
+  }
   .img{
-    width: 500px;
+    width: 570px;
     height: 300px;
+    border-radius: 10px;
+  }
+  .btn-mode{
+    text-align: center;
+    border-radius: 20px;
+    width: 10vh;
+    border: none;
+    margin-right: 2vh;
+    height: 40px;
+    line-height: 40px;
+    justify-content: center;
+    background-color: #29f5eb;
+    transition: 0.3s all ease-in-out;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
   }
   .font{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -455,7 +474,7 @@ theme.
   }
 
   .main-header-eight .appheader-content .site-logo {
-    margin-right: 255px;
+    margin-right: 50px;
   }
 
   .main-header-eight .appheader-content .navigation-eight {
@@ -467,7 +486,7 @@ theme.
   }
 
   .main-header-eight .appheader-content .navigation-eight li {
-    margin-right: 25px;
+    margin-right: 5px;
   }
 
   .main-header-eight .appheader-content .navigation-eight li a {
@@ -503,12 +522,11 @@ theme.
 
   .main-header-eight .appheader-content .sign-up-btn-eight {
     height: 40px;
-    width: 110px;
+    width: 17vh;
     line-height: 40px;
     border-radius: 20px;
     justify-content: center;
     background-color: #29f5eb;
-    transition: 0.3s all ease-in-out;
   }
 
   .main-header-eight .appheader-content .sign-up-btn-eight a {
